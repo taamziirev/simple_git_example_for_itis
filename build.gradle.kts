@@ -21,4 +21,11 @@ application {
 
 tasks.test {
     useJUnit()
+}
+
+// Задача для вывода версии приложения
+tasks.register("printVersion") {
+    doLast {
+        println(project.version)
+    }
 } 
