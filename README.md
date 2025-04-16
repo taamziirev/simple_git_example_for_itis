@@ -26,3 +26,7 @@ https://[username].github.io/simple_git_example_for_itis/staging/
 4. Автоматически запускается CI/CD-пайплайн
 5. После успешных тестов происходит деплой в тестовую среду на GitHub Pages
 6. Ручное подтверждение для релиза в production
+
+
+
+//АВТОР: AMIR.T
