@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Файлы сборки
+*.class
+*.jar
+*.war
+*.ear
+!gradle/wrapper/gradle-wrapper.jar
+
+# Локальные конфигурации
+local.properties
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Логи
+logs/
+*.log
+
+# ОС файлы
+.DS_Store
+Thumbs.db
+.directory
+
+# Kotlin
+.kotlin/
