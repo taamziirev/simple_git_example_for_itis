@@ -17,7 +17,7 @@
 
 ## Демо-приложение
 Демо-версия приложения доступна на GitHub Pages:
-https://[username].github.io/simple_git_example_for_itis/
+https://taamziirev.github.io/simple_git_example_for_itis/
 
 ## Процесс релиза
 1. Разработчик делает коммит в ветку feature
