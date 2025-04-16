@@ -28,5 +28,4 @@ https://[username].github.io/simple_git_example_for_itis/staging/
 6. Ручное подтверждение для релиза в production
 
 
-
 //АВТОР: AMIR.T
