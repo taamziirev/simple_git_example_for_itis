@@ -18,4 +18,11 @@ class CalculatorTest {
         assertEquals(0, calculator.subtract(0, 0))
         assertEquals(-3, calculator.subtract(-2, 1))
     }
+    
+    @Test
+    fun testMultiply() {
+        assertEquals(12, calculator.multiply(4, 3))
+        assertEquals(0, calculator.multiply(0, 5))
+        assertEquals(-10, calculator.multiply(2, -5))
+    }
 } 
