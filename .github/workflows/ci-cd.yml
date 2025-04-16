@@ -20,6 +20,8 @@ jobs:
           java-version: '17'
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v3
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
       - name: Build with Gradle
         run: ./gradlew build -x test
 
@@ -35,6 +37,8 @@ jobs:
           java-version: '17'
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v3
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
       - name: Run Tests
         run: ./gradlew test
 
@@ -50,6 +54,8 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
       - name: Deploy to staging
         run: |
           echo "Деплой в тестовую среду"
